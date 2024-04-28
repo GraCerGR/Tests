@@ -54,6 +54,7 @@ class TestSolution(TestCase):
                 with self.assertRaises(ValueError):
                     self.sut.uniquePaths(m, n)
 
+
     def test_unique_paths_m_or_n_not_integers(self):
         data = [(0.5,7),(8,11.2), (10.0,4),
                 ('!', 1), ('@', 1), ('#', 1), ('%', 1), (2, '$'),
