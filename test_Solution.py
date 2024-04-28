@@ -1,7 +1,6 @@
 from unittest import TestCase
 from Solution import Solution
 
-
 class TestSolution(TestCase):
     def setUp(self) -> None:
         self.sut = Solution()
