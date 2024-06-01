@@ -6,11 +6,11 @@ sut = Solution()
 
 @app.get('/')
 def form():
-    return '<html><body><h1>Уникальные пути</h1>' \
+    return '<html><head><title>Demo</title></head><body><h1>Уникальные пути</h1>' \
            '<form action="/" method="POST">' \
            '<input type="text" name="m">' \
            '<input type="text" name="n">' \
-           '<input type="submit">' \
+           '<input type="submit" id="go">' \
            '</form></body></html>'
 
 @app.post('/')
