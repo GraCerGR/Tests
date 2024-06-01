@@ -22,7 +22,7 @@ class TestHttpBaseChecks:
 
 class TestUniquePaths:
 
-    data_valid={(3, 7), (3, 2),(1, 1), (5, 5),(3, 8), (15, 12),(10, 10)}
+    data_valid = {(3, 7), (3, 2),(1, 1), (5, 5),(3, 8), (15, 12),(10, 10)}
 
     data_m_or_n_negative_or_0 = {(-1, 5), (0, 4), (20, -8), (2, 0), (0, 0), (-6, -12)}
 
